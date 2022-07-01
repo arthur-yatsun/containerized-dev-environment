@@ -17,7 +17,7 @@ p10k configure
 ```
 
 ### Nvim plugins
-During first usage of neovim the plugins should be installed
+During first usage of neovim the plugins should be installed by running:
 ```
 :PackerInstall
 ```
