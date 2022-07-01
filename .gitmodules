@@ -2,3 +2,6 @@
 	path = debian-setup
 	url = git@github.com:arthur-yatsun/debian-setup.git
 	branch = 2.0
+[submodule ".dotfiles"]
+	path = .dotfiles
+	url = git@github.com:arthur-yatsun/.dotfiles.git
