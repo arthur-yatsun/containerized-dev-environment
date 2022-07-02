@@ -1,9 +1,14 @@
 # contanerized-dev-env
-
-- [ ] Create CD to auto deploy image to the docker hub
-
 A Docker image that can be used to replace the development setup.
 
+## Usage
+
+```
+IMAGE=arthuryatsun/dev-setup:1.0.0
+
+docker pull $IMAGE
+docker run -it $IMAGE
+```
 ## Available Tools
 https://github.com/arthur-yatsun/debian-setup#setup=
 
