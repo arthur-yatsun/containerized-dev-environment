@@ -7,8 +7,17 @@ A Docker image that can be used to replace the development setup.
 IMAGE=arthuryatsun/dev-setup:1.0.0
 
 docker pull $IMAGE
+
+# run Z shell
 docker run -it $IMAGE
+
+# edit file using nvim
+docker run -it $IMAGE nvim test.file
+
+# run tmux session
+docker run -it $IMAGE tmux
 ```
+
 ## Available Tools
 https://github.com/arthur-yatsun/debian-setup#setup=
 
