@@ -8,8 +8,8 @@ IMAGE=arthuryatsun/dev-setup:1.0.0
 
 docker pull $IMAGE
 
-# run Z shell
-docker run -it $IMAGE zsh
+# run Z shell. (default behaviour)
+docker run -it $IMAGE
 
 # edit file using nvim
 docker run -it $IMAGE nvim test.file
